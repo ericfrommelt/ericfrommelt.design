@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
             h3 { font-size: 1rem; }
 
             small {
-              font-size: .5rem;
+              font-size: .6rem;
               font-family: "Operator Mono A", "Operator Mono B";
               font-style: normal;
               font-weight: 400;
@@ -81,22 +81,25 @@ const Layout = ({ children }) => {
         <link rel="stylesheet" href="https://use.typekit.net/cni2rpi.css"></link>
         <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7804816/7320412/css/fonts.css" />
       </Helmet>
+
       <div css={css`
         width: 100%;
         height: .5rem;
         background: #000;
       `}></div>
+
       <main
         css={css`
-          max-width: 1170px;
-          margin: 0 auto;
+          max-width: 100vw;
           min-height: 100vh;
           overflow-x: hidden;
           overflow-y: hidden;
           position: relative;
         `}
       >
+
         <Header></Header>
+
         <div>
           {children}
         </div>

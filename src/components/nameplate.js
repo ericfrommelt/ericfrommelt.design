@@ -11,7 +11,11 @@ const Nameplate = () => {
           letter-spacing: -.02rem;
           text-transform: uppercase;
           font-weight: 700;
-          margin: 4rem 0;
+          line-height: 1.6rem;
+
+          @media screen and (min-width: 820px) {
+            font-size: 1.2rem;
+          }
         `}
       >Eric Frommelt</h3>
     </div>

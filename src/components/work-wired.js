@@ -20,10 +20,46 @@ const WorkWired = () => {
     <>
       <div css={css`
         margin: 4rem 0;
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: auto auto;
       `}>
-        <h2>Wired : Infographic design</h2>
+        <div css={css`
+          grid-column: 2 / span 12;
+          grid-row: 1;
+
+          @media screen and (min-width: 820px) {
+            grid-column: 3 / span 6;
+            grid-row: 1 / span 2;
+            align-self: end;
+            transform-origin: 0 0;
+            transform: rotate(-90deg);
+          }
+        `}>
+          <h2 css={css`
+
+            @media screen and (min-width: 820px) {
+              margin-top: 1em;
+              margin-left: -.2rem;
+            }
+          `}>The top dating site profiles from multiple platforms</h2>
+          <div css={css`
+          width: 2rem;
+          height: 4px;
+          background-color: orangered;
+        `}></div>
+        <small css={css`
+        `}>Wired</small>
+        </div>
         <div css={css`
           margin: 2rem 0;
+          grid-column: 2 / span 12;
+          grid-row: 2;
+
+          @media screen and (min-width: 820px) {
+            grid-column: 4 / span 10;
+            grid-row: 1 / span 2;
+          }
         `}>
           <Img fluid={data.image1.sharp.fluid}></Img>
         </div>

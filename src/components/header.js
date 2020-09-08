@@ -24,16 +24,29 @@ const NavLink = styled(Link)`
 const Header = () => (
   <header
     css={css`
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 6rem;
+      display: grid;
+      grid-template-columns: repeat(14, 1fr);
+      margin: 2em 0 6em 0;
+      @media screen and (min-width: 820px) {
+        margin: 6em 0;
+      }
     `}
   >
-    <Link to='/'><Nameplate></Nameplate></Link>
-    <nav>
-      <Link css={css`margin-right: 1rem;`} to='/information'>Information</Link>
-      <Link to='/journal'>Journal</Link>
+    <Link css={css`
+      grid-column: 2 / span 4;
+    `} to='/'><Nameplate></Nameplate></Link>
+    <nav css={css`
+      grid-column: 8 / span 6;
+      justify-self: end;
+      font-size: .8rem;
+      margin-top: 2.2em;
+
+      @media screen and (min-width: 820px) {
+        margin-top: .8em;
+      }
+    `}
+>
+      <Link css={css`margin-right: 1rem;`} to='/information/'>Information</Link>
     </nav>
   </header>
 )
