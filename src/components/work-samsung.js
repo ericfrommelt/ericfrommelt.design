@@ -22,13 +22,15 @@ const WorkSamsung = () => {
         margin: 8em 0;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         background-color: #ccc;
       `}>
         <div css={css`
-          grid-column: 11 / span 3;
-          grid-row: 1 / span 2;
-          align-self: end;
+          grid-column: 2 / span 12;
+          margin-bottom: 4em;
+
+          @media screen and (min-width: 800px) {
+            grid-column: 11 / span 3;
+          }
         `}>
           <h2 css={css`
             margin-top: 6em;
@@ -43,10 +45,14 @@ const WorkSamsung = () => {
         `}>Samsung</small>
         </div>
         <div css={css`
-        grid-column: 2 / span 8;
-        grid-row: 8;
-        margin-top: -14em;
-        margin-bottom: 8em;
+          grid-column: 2 / span 12;
+          margin-bottom: 4em;
+
+        @media screen and (min-width: 800px) {
+          grid-column: 2 / span 8;
+          margin-top: -14em;
+          margin-bottom: 8em;
+        }
       `}>
           <Img fluid={data.image1.sharp.fluid}></Img>
         </div>

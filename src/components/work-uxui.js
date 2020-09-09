@@ -33,20 +33,23 @@ const WorkUxUi = () => {
   return (
     <>
     <div css={css`
-        margin: 4rem 0;
+        margin: 4em 0;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         background-color: white;
       `}>
         <div css={css`
-          grid-column: 11 / span 3;
-          grid-row: 1 / span 2;
-          align-self: end;
+          grid-column: 2 / span 12;
+          @media screen and (min-width: 800px) {
+            grid-column: 11 / span 3;
+          }
         `}>
           <h2 css={css`
-            margin-top: 6em;
-            margin-left: -.2rem;
+
+            @media screen and (min-width: 800px) {
+              margin-top: 4em;
+              margin-left: -.2em;
+            }
           `}>Branding, UX/UI design</h2>
           <div css={css`
           width: 2rem;
@@ -58,9 +61,7 @@ const WorkUxUi = () => {
         </div>
         <div css={css`
           grid-column: 2 / span 12;
-          grid-row: 3;
           z-index: 20;
-          margin-top: 4rem;
           @media (min-width:820px) {
             
           }

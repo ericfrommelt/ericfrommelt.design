@@ -24,10 +24,19 @@ import { css } from '@emotion/core'
         grid-template-rows: repeat(2, 1fr);
       `}>
         <Img css={css`
-          grid-column: 1 / span 5;
+          grid-column: 2 / span 12;
+
+          @media screen and (min-width: 800px) {
+            grid-column: 1 / span 5;
+          }
         `} fluid={data.image1.sharp.fluid}></Img>
         <div css={css`
-          grid-column: 7 / span 6;
+          grid-column: 2 / span 12;
+          margin-top: 4em;
+
+          @media screen and (min-width: 820px) {
+            grid-column: 7 / span 6;
+          }
         `}>
           <p>I'm a multi-disciplinary designer and developer focused on storytelling at the intersection of design, user experience, and development.</p>
           <h3 css={css`
