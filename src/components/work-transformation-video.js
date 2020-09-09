@@ -8,154 +8,154 @@ const WorkTransformationVideo = () => {
   query {
     image1: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_01.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image2: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_02.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image3: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_03.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image4: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_04.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image5: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_05.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image6: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_06.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image7: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_07.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image8: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_08.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image9: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_09.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image10: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_10.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image11: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_11.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image12: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_12.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image13: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_13.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image14: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_14.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image15: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_15.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image16: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_16.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image17: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_17.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image18: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_18.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image19: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_19.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image20: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_20.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image21: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_21.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image22: file(relativePath: { eq: "Transformation_Shapes_11-2-2017_22.png" }) {
       sharp: childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

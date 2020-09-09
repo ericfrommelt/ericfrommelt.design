@@ -8,28 +8,28 @@ const WorkHPE = () => {
     query {
       image1: file(relativePath: { eq: "CloudCliff_8-24-2017-01.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image2: file(relativePath: { eq: "CyberCrime_8-15-2017-01.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image3: file(relativePath: { eq: "hpe-3.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image4: file(relativePath: { eq: "Storage_Myths_07-12-2017-02.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

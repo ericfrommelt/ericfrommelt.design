@@ -8,21 +8,21 @@ const WorkUxUi = () => {
     query {
       image1: file(relativePath: { eq: "twcbcc_stacked.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 3000) {
+          fluid(maxWidth: 3000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image2: file(relativePath: { eq: "voicezone.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 3000) {
+          fluid(maxWidth: 3000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image3: file(relativePath: { eq: "vbb_stacked.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 3000) {
+          fluid(maxWidth: 3000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

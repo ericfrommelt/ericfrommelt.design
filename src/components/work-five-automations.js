@@ -46,11 +46,11 @@ const FiveAutomations = () => {
         margin: 8rem 0;
       `}>
         <div css={css`
-        grid-column: 3 / span 8;
-        grid-row: 1;
-        align-self: center;
-        color: black;
-        margin-bottom: 4rem;
+          grid-column: 2 / span 8;
+          grid-row: 1;
+          align-self: center;
+          color: black;
+          margin-bottom: 2em;
       `}>
         <h2>Five Automations Illustration</h2>
         <div css={css`

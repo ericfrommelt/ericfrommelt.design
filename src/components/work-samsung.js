@@ -6,9 +6,9 @@ import Img from "gatsby-image"
 const WorkSamsung = () => {
   const data = useStaticQuery(graphql`
     query {
-      image1: file(relativePath: { eq: "samsung.jpg" }) {
+      image1: file(relativePath: { eq: "Samsung_Reshape.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 3000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

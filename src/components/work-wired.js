@@ -8,7 +8,7 @@ const WorkWired = () => {
     query {
       image1: file(relativePath: { eq: "wired-okcupid.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 1000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
