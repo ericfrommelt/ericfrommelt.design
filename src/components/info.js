@@ -53,6 +53,7 @@ import { css } from '@emotion/core'
             <li>UX/UI Design</li>
             <li>Visual Design</li>
             <li>Illustration</li>
+            <li>Data Visualization</li>
             <li>HTML / CSS / JavaScript</li>
             <li>Motion Design</li>
           </ul>
