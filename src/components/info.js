@@ -13,13 +13,6 @@ import { css } from '@emotion/core'
             }
           }
         }
-        image2: file(relativePath: { eq: "portrait-drakkar.jpg" }) {
-          sharp: childImageSharp {
-            fluid(maxWidth: 2000) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
       }
     `)
   return (
