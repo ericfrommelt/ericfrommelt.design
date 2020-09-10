@@ -29,7 +29,7 @@ const FiveAutomations = () => {
       }
       image4: file(relativePath: { eq: "automationsspreads-2.png" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
