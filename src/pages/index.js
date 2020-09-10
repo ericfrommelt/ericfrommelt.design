@@ -11,6 +11,7 @@ import WorkSpecimen from "../components/work-specimen"
 import WorkFiveAutomations from "../components/work-five-automations"
 import WorkSamsung from "../components/work-samsung"
 import WorkUxUi from "../components/work-uxui"
+import WorkIllustration from "../components/work-illustration"
 
 export default () => {
 
@@ -78,6 +79,7 @@ export default () => {
         <WorkSamsung></WorkSamsung>
         <WorkUxUi></WorkUxUi>
         <WorkFiveAutomations></WorkFiveAutomations>
+        <WorkIllustration></WorkIllustration>
       </Layout>
     </>
   )
