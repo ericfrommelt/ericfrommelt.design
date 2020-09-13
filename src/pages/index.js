@@ -34,7 +34,7 @@ export default () => {
             @media screen and (min-width:820px) {
             font-size: 5rem;
           }
-          `}>Hello, I'm Eric. <br />I tell visual stories.</h1>
+          `}><span css={css`letter-spacing: -.2rem;`}>H</span>ello, <span css={css`letter-spacing: -.2rem;`}>I'</span>m Eric. <br />I design visual stories.</h1>
           <div css={css`
               grid-column-start: 10;
               grid-column-end: 11;

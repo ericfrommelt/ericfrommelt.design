@@ -22,7 +22,7 @@ const WorkSamsung = () => {
         margin: 8em 0;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        background-color: #ccc;
+        background-color: #efefef;
       `}>
         <div css={css`
           grid-column: 2 / span 12;

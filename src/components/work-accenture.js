@@ -36,7 +36,7 @@ const WorkAccenture = () => {
         margin: 8em 0;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        background-color: #ccc;
+        background-color: #efefef;
       `}>
 {/* ========== Header ========== */}
         <div css={css`
@@ -62,10 +62,12 @@ const WorkAccenture = () => {
 {/* ========== Countdown ========== */}
         <div css={css`
           grid-column: 2 / span 12;
+          grid-row: 2;
           margin-bottom: 4em;
 
           @media screen and (min-width: 800px) {
             grid-column: 2 / span 8;
+            grid-row: 2
         }
       `}>
           <Img fluid={data.image1.sharp.fluid}></Img>
@@ -74,10 +76,13 @@ const WorkAccenture = () => {
 {/* ========== High Stakes ========== */}
         <div css={css`
           grid-column: 2 / span 12;
+          grid-row: 3 / span 1;
           margin-bottom: 4em;
 
         @media screen and (min-width: 800px) {
-          grid-column: 7 / span 4;
+          grid-column: 11 / span 3;
+          grid-row: 3 / span 1;
+          margin-top: -16em;
         }
       `}>
           <Img fluid={data.image2.sharp.fluid}></Img>
@@ -86,10 +91,14 @@ const WorkAccenture = () => {
 {/* ========== Moonshot ========== */}
         <div css={css`
           grid-column: 2 / span 12;
+          grid-row: 4
           margin-bottom: 4em;
 
         @media screen and (min-width: 800px) {
           grid-column: 3 / span 7;
+          grid-row: 4;
+          margin-top: -8em;
+          margin-bottom: 4em;
         }
       `}>
           <Img fluid={data.image3.sharp.fluid}></Img>
