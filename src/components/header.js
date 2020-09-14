@@ -39,7 +39,7 @@ const Header = () => (
       grid-column: 8 / span 6;
       justify-self: end;
       font-size: .8rem;
-      margin-top: 2.2em;
+      margin-top: 2em;
 
       @media screen and (min-width: 820px) {
         margin-top: .8em;

@@ -13,6 +13,13 @@ import { css } from '@emotion/core'
             }
           }
         }
+        image2: file(relativePath: { eq: "plant-01.jpg" }) {
+          sharp: childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     `)
   return (
@@ -21,15 +28,40 @@ import { css } from '@emotion/core'
         margin: 8em 0;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 20em 1fr;
       `}>
+        <div css={css`
+          grid-column: 7 / span 1;
+          grid-row: 3;
+          max-width: .6em;
+          margin-top: 4em;
+        `}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+            <title>tri-down</title>
+            <g id="Layer_2" data-name="Layer 2">
+              <polygon css={css`fill: #000; stroke: none;`} points="0 30 0 0 30 0 0 30"/>
+            </g>
+          </svg>
+        </div>
+        <Img css={css`
+          grid-column: 2 / span 12;
+
+          @media screen and (min-width: 800px) {
+            grid-column: 3 / span 3;
+            grid-row: 1;
+            margin: 2em 0 2em 2em;
+          }
+        `} fluid={data.image1.sharp.fluid}></Img>
+
         <Img css={css`
           grid-column: 2 / span 12;
 
           @media screen and (min-width: 800px) {
             grid-column: 1 / span 5;
+            grid-row: 2;
           }
-        `} fluid={data.image1.sharp.fluid}></Img>
+        `} fluid={data.image2.sharp.fluid}></Img>
+
         <div css={css`
           grid-column: 2 / span 12;
           margin-top: 4em;
@@ -38,7 +70,9 @@ import { css } from '@emotion/core'
             grid-column: 7 / span 6;
           }
         `}>
-          <p>I'm a multi-disciplinary designer and developer focused on storytelling at the intersection of design, user experience, and development.</p>
+          <p css={css`
+            font-size: 1.4rem;
+          `}>I'm a multi-disciplinary designer and developer focused on storytelling at the intersection of design, user experience, and development.</p>
           <h3 css={css`
             margin-top: 4em;
           `}>Skills</h3>
